@@ -2,15 +2,19 @@
 
 ## Preparations
  
-System need to have
- - mysql user with name: web and password: web
+Required
+ - mysql root user with name: web and password: web
  - php
 
-- Run `php reset-data.php` to create database and reset data
+To create database and reset data run:
+
+    php reset-data.php
 
 
 ## Run solution
-- Run `php export-data.php` to export the data from database and save to a file
+To export the data from database and save to a file run:
+
+    php export-data.php
 
 
 ##  What is next
